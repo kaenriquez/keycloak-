@@ -1,5 +1,4 @@
-ROM registry.access.redhat.com/ubi8-minimal
-
+FROM ubuntu:latest
 ENV KEYCLOAK_VERSION 16.0.0
 ENV JDBC_POSTGRES_VERSION 42.2.5
 ENV JDBC_MYSQL_VERSION 8.0.22
